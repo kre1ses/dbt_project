@@ -22,6 +22,7 @@ profiles.yml
 .dbt/
 
 clickhouse/logs/
+clickhouse_data/
 
 docker-compose.override.yml
 data/*.csv
