@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: transactions_db
+    database: transactions_db
+    tables:
+      - name: transactions
+        description: "Unconditional transactions data"

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: mart_fraud_by_category
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [category]
+
+  - name: mart_daily_state_metrics
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [transaction_date, us_state]
